@@ -1,0 +1,49 @@
+* {
+  font-size: 18px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./background.png);
+}
+
+.intro-text {
+  position: fixed;
+  top: 0;
+  margin: 20px;
+  text-align: center;
+}
+
+.ball {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.boom-text {
+  text-align: center;
+  cursor: pointer;
+}
+
+.boom {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
